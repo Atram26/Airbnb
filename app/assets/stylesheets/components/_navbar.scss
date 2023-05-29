@@ -19,8 +19,12 @@ $color_3: #D23333;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 100px;
+  position:fixed;
+  left:0px;
+  bottom: 0px;
+	height: 30px;
 	padding: 0px 50px;
+  width: 100%;
 	color: $color_1;
 	.fa-heart {
 		color: $color_3;
